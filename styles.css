@@ -1,0 +1,55 @@
+/*start of header 7*/
+.header-7 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("file:///C:/Users/Gustav/Desktop/header-7.png");
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    padding: 100px 0;
+    color: #ffffff;
+}
+
+.header-7 h1 {
+    font-size: 3.875rem;
+    font-weight: 300;
+}
+
+.header-7 p {
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.header-7 .btn {
+  padding: 12px 35px;
+  background-color: #ff0000;
+  color: #FFF;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-decoration: none;
+  border: solid 2px #ff0000;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px; }
+
+.header-7  .btn:hover {
+    color: #FFF;
+    background-color: #ff4242;
+    border-color: #ff4242; }
+
+@media (min-width: 992px) {
+    .header-7 {
+        height: 100vh;
+        min-height: 650px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-7 p {
+        width: 75%;
+}
+}
+/*end of header 7*/
